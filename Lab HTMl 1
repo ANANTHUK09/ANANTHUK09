@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab1</title>
+</head>
+<body>
+ <form action="register.php" method="post" enctype="multipart/form-data">
+ 	<label for="name">Name</label><br>
+ 	<input type="text" id="name" name="name" placeholder="Enter Your Sweet Name" required><br>
+ 	<label for="name">Email</label><br>
+ 	<input type="text" id="Email" name="Email"  placeholder="Enter Your Email Id" value="text@example.com" autofocus
+ 	required><br>
+ 	<label for="password">Password</label><br>
+ 	<input type="text" id="password" name="password" placeholder="Enter Your password" maxlength="6" required>
+<br>
+ 	<label for="Category">Category</label>
+<br>
+
+ 	<select name="Category" id="Category">
+ 		<option value="Freelancer">Freelancer</option>	
+ 		<option value="Student">Student</option>
+ 		<option value="Employee">Employee</option>
+ 	
+
+ 	
+ 	</select>
+ <br>
+   <label for="event_date">Event Date:</label><br>
+    <input type="date" id="event_date" name="event_date" required>
+ <br>
+	
+ </form>
+ <h3>Here is your Ticket Please Choose</h3>
+   <label Ticket1>Ticket1</label>
+   <input type="radio" name="radio">
+   <label Ticket2>Ticket2</label>
+   <input type="radio" name="radio" checked >
+   <label Ticket3>Ticket3</label>
+   <input type="radio" name="radio">
+ <br>
+   <label Checked Box>Online Payment</label>
+   <input type="CheckBox" id="Online Payment" name="Online Payment" required>
+ <br>
+   <label Notes>Notes</label>
+   <input type="text area" name="Notes" placeholder="keep your notes here" maxlength="25">
+ 
+ <br>
+    <label for="category">Category:</label><br>
+    <input type="text" id="category" name="category">
+ <br>
+
+ 
+
+    <label for="tickets">Tickets:</label><br>
+    <input type="number" id="tickets" name="tickets" min="0">
+ <br>
+   <label Button>conform here by clicking submit</label>
+   <input type="submit" name="submit">
+
+</body>
+</html>
